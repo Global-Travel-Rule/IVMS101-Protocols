@@ -1,0 +1,74 @@
+{
+  "originator": {
+    "originatorPersons": [
+      {
+        "naturalPerson": {
+          "name": {
+            "nameIdentifier": [
+              {
+                "primaryIdentifier": "Test",
+                "secondaryIdentifier": "Test",
+                "nameIdentifierType": "LEGL"
+              }
+            ]
+          },
+          "geographicAddress": [
+            {
+              "addressType": "GEOG",
+              "streetName": "Test Street",
+              "buildingNumber": "41241414141515",
+              "buildingName": "Example Building",
+              "postcode": "191991001",
+              "townName": "Thousand Oaks",
+              "countrySubDivision": "California",
+              "country": "US"
+            }
+          ],
+          "nationalIdentification": {
+            "nationalIdentifier": "021212121212121212121212",
+            "nationalIdentifierType": "RAID",
+            "registrationAuthority": "RAA11TY5"
+          },
+          "customerIdentification": "0xA3888844TYB662662642",
+          "dateAndPlaceOfBirth": {
+            "dateOfBirth": "1990-11-21",
+            "placeOfBirth": "New York City"
+          },
+          "countryOfResidence": "US"
+        }
+      }
+    ],
+    "accountNumber": [
+      "1HBn84824284jnvnbj"
+    ]
+  },
+  "originatingVASP": {
+    "legalPerson": {
+      "name": {
+        "nameIdentifier": [
+          {
+            "legalPersonName": "VASP A",
+            "legalPersonNameIdentifierType": "LEGL"
+          }
+        ]
+      },
+      "geographicAddress": [
+        {
+          "addressType": "GEOG",
+          "streetName": "Test Street",
+          "buildingNumber": "12355353535",
+          "buildingName": "Example Building",
+          "postcode": "18100101",
+          "townName": "New York City",
+          "countrySubDivision": "NY",
+          "country": "US"
+        }
+      ],
+      "nationalIdentification": {
+        "nationalIdentifier": "3367892345",
+        "nationalIdentifierType": "LEIX"
+      },
+      "customerIdentification": "0xE9qVvMq6GtVHqMbf2E8vRJf9r8HjF"
+    }
+  }
+}

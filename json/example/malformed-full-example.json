@@ -1,0 +1,140 @@
+{
+  "originator": {
+    "originatorPersons": [
+      {
+        "naturalPerson": {
+          "name": {
+            "nameIdentifier": [
+              {
+                "primaryIdentifier": "Test",
+                "secondaryIdentifier": "Test Test",
+                "nameIdentifierType": "LEGL"
+              }
+            ]
+          },
+          "geographicAddress": [
+            {
+              "addressType": "GEOG",
+              "streetName": "Test Street",
+              "buildingNumber": "12345678",
+              "buildingName": "Example Building",
+              "postcode": "12121314443",
+              "townName": "Thousand Oaks",
+              "countrySubDivision": "California",
+              "country": "US"
+            }
+          ],
+          "nationalIdentification": {
+            "nationalIdentifier": "041737131",
+            "nationalIdentifierType": "RAID",
+            "registrationAuthority": "TEST CODE"
+          },
+          "customerIdentification": "0xA3313131311b",
+          "dateAndPlaceOfBirth": {
+            "dateOfBirth": "1990-11-21",
+            "placeOfBirth": "New York City"
+          },
+          "countryOfResidence": "US"
+        }
+      }
+    ],
+    "accountNumber": [
+      "1HBn84824284jnvnbj"
+    ]
+  },
+  "beneficiary": {
+    "beneficiaryPersons": [
+      {
+        "legalPerson": {
+          "name": {
+            "nameIdentifier": [
+              {
+                "legalPersonName": "Test Inc",
+                "legalPersonNameIdentifierType": "LEGL"
+              }
+            ]
+          },
+          "geographicAddress": [
+            {
+              "addressType": "GEOG",
+              "streetName": "Test Street 1",
+              "buildingNumber": "123454646464",
+              "buildingName": "Example Town",
+              "postcode": "10992012012",
+              "townName": "Toronto",
+              "countrySubDivision": "Ontario",
+              "country": "CA"
+            }
+          ],
+          "nationalIdentification": {
+            "nationalIdentifier": "4363663B8881313",
+            "nationalIdentifierType": "LEIX"
+          },
+          "customerIdentification": "0x3E9181d09E56AdEF3bbc8BAb664Ce6B268Bf6e62",
+          "countryOfRegistration": "CA"
+        }
+      }
+    ],
+    "accountNumber": [
+      "1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2"
+    ]
+  },
+  "originatingVASP": {
+    "legalPerson": {
+      "name": {
+        "nameIdentifier": [
+          {
+            "legalPersonName": "VASP A",
+            "legalPersonNameIdentifierType": "LEGL"
+          }
+        ]
+      },
+      "geographicAddress": [
+        {
+          "addressType": "GEOG",
+          "streetName": "Test Street 2",
+          "buildingNumber": "1213141421151",
+          "buildingName": "Example Building",
+          "postcode": "1900102",
+          "townName": "New York City",
+          "countrySubDivision": "NY",
+          "country": "US"
+        }
+      ],
+      "nationalIdentification": {
+        "nationalIdentifier": "7371371131BJ",
+        "nationalIdentifierType": "LEIX"
+      },
+      "customerIdentification": "0xE9qVvMq6GtVHqMbf2E8vRJf9r8"
+    }
+  },
+  "beneficiaryVASP": {
+    "legalPerson": {
+      "name": {
+        "nameIdentifier": [
+          {
+            "legalPersonName": "VASP B",
+            "legalPersonNameIdentifierType": "LEGL"
+          }
+        ]
+      },
+      "geographicAddress": [
+        {
+          "addressType": "GEOG",
+          "streetName": "Test Street 22",
+          "buildingNumber": "213142424234234",
+          "buildingName": "Test Building 03",
+          "postcode": "992182121",
+          "townName": "San Francisco",
+          "countrySubDivision": "CA",
+          "country": "US"
+        }
+      ],
+      "nationalIdentification": {
+        "nationalIdentifier": "335800Htwtwt121313",
+        "nationalIdentifierType": "LEIX"
+      },
+      "customerIdentification": "0x47qVvMq6GtVHqMbf2E8vRJf9r8"
+    }
+  }
+}

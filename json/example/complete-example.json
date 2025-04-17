@@ -1,0 +1,140 @@
+{
+  "originator": {
+    "originatorPersons": [
+      {
+        "naturalPerson": {
+          "name": {
+            "nameIdentifier": [
+              {
+                "primaryIdentifier": "Test",
+                "secondaryIdentifier": "Test",
+                "nameIdentifierType": "LEGL"
+              }
+            ]
+          },
+          "geographicAddress": [
+            {
+              "addressType": "GEOG",
+              "streetName": "Test Street",
+              "buildingNumber": "12345678",
+              "buildingName": "Example Building",
+              "postcode": "10110",
+              "townName": "Test Town",
+              "countrySubDivision": "California",
+              "country": "US"
+            }
+          ],
+          "nationalIdentification": {
+            "nationalIdentifier": "1212121313",
+            "nationalIdentifierType": "RAID",
+            "registrationAuthority": "RA000589"
+          },
+          "customerIdentification": "0xBB662262JKL999391301",
+          "dateAndPlaceOfBirth": {
+            "dateOfBirth": "1999-11-21",
+            "placeOfBirth": "New York City"
+          },
+          "countryOfResidence": "US"
+        }
+      }
+    ],
+    "accountNumber": [
+      "3BJKK12113131313131"
+    ]
+  },
+  "beneficiary": {
+    "beneficiaryPersons": [
+      {
+        "legalPerson": {
+          "name": {
+            "nameIdentifier": [
+              {
+                "legalPersonName": "Test Beneficiary Inc",
+                "legalPersonNameIdentifierType": "LEGL"
+              }
+            ]
+          },
+          "geographicAddress": [
+            {
+              "addressType": "GEOG",
+              "streetName": "Test Street",
+              "buildingNumber": "123",
+              "buildingName": "Town House Example",
+              "postcode": "19191001",
+              "townName": "Toronto",
+              "countrySubDivision": "Ontario",
+              "country": "CA"
+            }
+          ],
+          "nationalIdentification": {
+            "nationalIdentifier": "335800663636363",
+            "nationalIdentifierType": "LEIX"
+          },
+          "customerIdentification": "0x38003131313AB1313131",
+          "countryOfRegistration": "CA"
+        }
+      }
+    ],
+    "accountNumber": [
+      "1B8hahfarq441418881JK"
+    ]
+  },
+  "originatingVASP": {
+    "legalPerson": {
+      "name": {
+        "nameIdentifier": [
+          {
+            "legalPersonName": "VASP A",
+            "legalPersonNameIdentifierType": "LEGL"
+          }
+        ]
+      },
+      "geographicAddress": [
+        {
+          "addressType": "GEOG",
+          "streetName": "Test Street 1",
+          "buildingNumber": "12131314148149149",
+          "buildingName": "Example Building",
+          "postcode": "10001",
+          "townName": "New York City",
+          "countrySubDivision": "NY",
+          "country": "US"
+        }
+      ],
+      "nationalIdentification": {
+        "nationalIdentifier": "335800HXPOIUDJ9T5R34",
+        "nationalIdentifierType": "LEIX"
+      },
+      "customerIdentification": "0xTY13131313133BM4424242"
+    }
+  },
+  "beneficiaryVASP": {
+    "legalPerson": {
+      "name": {
+        "nameIdentifier": [
+          {
+            "legalPersonName": "VASP B",
+            "legalPersonNameIdentifierType": "LEGL"
+          }
+        ]
+      },
+      "geographicAddress": [
+        {
+          "addressType": "GEOG",
+          "streetName": "Test Street2",
+          "buildingNumber": "123456",
+          "buildingName": "Example Building 2",
+          "postcode": "1019291291",
+          "townName": "San Francisco",
+          "countrySubDivision": "CA",
+          "country": "US"
+        }
+      ],
+      "nationalIdentification": {
+        "nationalIdentifier": "401401040njfajgsgksgk",
+        "nationalIdentifierType": "LEIX"
+      },
+      "customerIdentification": "0x8cjjfahfaif923890310343435320523888"
+    }
+  }
+}
